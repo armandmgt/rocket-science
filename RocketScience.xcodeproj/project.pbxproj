@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7FAE89BE979DAEEFFB8DFB56 /* Pods_RocketScience.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C73B73136560998F88209C0B /* Pods_RocketScience.framework */; };
+		E4538E55290870AB00D360CE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E4538E50290870AB00D360CE /* GoogleService-Info.plist */; };
+		E4538E58290870AB00D360CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4538E53290870AB00D360CE /* AppDelegate.swift */; };
+		E4538E602908715F00D360CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4538E5B2908715F00D360CE /* ContentView.swift */; };
+		E4538E612908715F00D360CE /* GoogleSignInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4538E5C2908715F00D360CE /* GoogleSignInButton.swift */; };
+		E4538E622908715F00D360CE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4538E5D2908715F00D360CE /* HomeView.swift */; };
+		E4538E632908715F00D360CE /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4538E5E2908715F00D360CE /* LoginView.swift */; };
+		E4538E642908715F00D360CE /* RugbyCompetionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4538E5F2908715F00D360CE /* RugbyCompetionsView.swift */; };
+		E4538E682908717100D360CE /* RugbyCompetitionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4538E662908717100D360CE /* RugbyCompetitionsViewModel.swift */; };
+		E4538E692908717100D360CE /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4538E672908717100D360CE /* AuthenticationViewModel.swift */; };
+		E4538E6C2908718400D360CE /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4538E6B2908718400D360CE /* DatabaseService.swift */; };
+		E466631329086EEF002B5ADA /* RocketScienceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E466631229086EEF002B5ADA /* RocketScienceApp.swift */; };
+		E466631729086EF0002B5ADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E466631629086EF0002B5ADA /* Assets.xcassets */; };
+		E466631A29086EF0002B5ADA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E466631929086EF0002B5ADA /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C73B73136560998F88209C0B /* Pods_RocketScience.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RocketScience.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4538E50290870AB00D360CE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E4538E53290870AB00D360CE /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E4538E5B2908715F00D360CE /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E4538E5C2908715F00D360CE /* GoogleSignInButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleSignInButton.swift; sourceTree = "<group>"; };
+		E4538E5D2908715F00D360CE /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E4538E5E2908715F00D360CE /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E4538E5F2908715F00D360CE /* RugbyCompetionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RugbyCompetionsView.swift; sourceTree = "<group>"; };
+		E4538E662908717100D360CE /* RugbyCompetitionsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RugbyCompetitionsViewModel.swift; sourceTree = "<group>"; };
+		E4538E672908717100D360CE /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		E4538E6B2908718400D360CE /* DatabaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
+		E4538E6D2908749600D360CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E466630F29086EEF002B5ADA /* RocketScience.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RocketScience.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E466631229086EEF002B5ADA /* RocketScienceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketScienceApp.swift; sourceTree = "<group>"; };
+		E466631629086EF0002B5ADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E466631929086EF0002B5ADA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E883EB9314CD1DB06A5C3DFE /* Pods-RocketScience.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RocketScience.release.xcconfig"; path = "Target Support Files/Pods-RocketScience/Pods-RocketScience.release.xcconfig"; sourceTree = "<group>"; };
+		EE39DDB14484990583EC7BF0 /* Pods-RocketScience.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RocketScience.debug.xcconfig"; path = "Target Support Files/Pods-RocketScience/Pods-RocketScience.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E466630C29086EEF002B5ADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FAE89BE979DAEEFFB8DFB56 /* Pods_RocketScience.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D0FB8E316E6A387884CDBEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C73B73136560998F88209C0B /* Pods_RocketScience.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6615C87E994431545987C250 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE39DDB14484990583EC7BF0 /* Pods-RocketScience.debug.xcconfig */,
+				E883EB9314CD1DB06A5C3DFE /* Pods-RocketScience.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E4538E5A2908712D00D360CE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E4538E5B2908715F00D360CE /* ContentView.swift */,
+				E4538E5C2908715F00D360CE /* GoogleSignInButton.swift */,
+				E4538E5D2908715F00D360CE /* HomeView.swift */,
+				E4538E5E2908715F00D360CE /* LoginView.swift */,
+				E4538E5F2908715F00D360CE /* RugbyCompetionsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E4538E652908716300D360CE /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E4538E672908717100D360CE /* AuthenticationViewModel.swift */,
+				E4538E662908717100D360CE /* RugbyCompetitionsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E4538E6A2908718400D360CE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E4538E6B2908718400D360CE /* DatabaseService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E466630629086EEF002B5ADA = {
+			isa = PBXGroup;
+			children = (
+				E466631129086EEF002B5ADA /* RocketScience */,
+				E466631029086EEF002B5ADA /* Products */,
+				6615C87E994431545987C250 /* Pods */,
+				3D0FB8E316E6A387884CDBEF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E466631029086EEF002B5ADA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E466630F29086EEF002B5ADA /* RocketScience.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E466631129086EEF002B5ADA /* RocketScience */ = {
+			isa = PBXGroup;
+			children = (
+				E4538E6D2908749600D360CE /* Info.plist */,
+				E4538E6A2908718400D360CE /* Services */,
+				E4538E652908716300D360CE /* ViewModels */,
+				E4538E5A2908712D00D360CE /* Views */,
+				E4538E53290870AB00D360CE /* AppDelegate.swift */,
+				E4538E50290870AB00D360CE /* GoogleService-Info.plist */,
+				E466631229086EEF002B5ADA /* RocketScienceApp.swift */,
+				E466631629086EF0002B5ADA /* Assets.xcassets */,
+				E466631829086EF0002B5ADA /* Preview Content */,
+			);
+			path = RocketScience;
+			sourceTree = "<group>";
+		};
+		E466631829086EF0002B5ADA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E466631929086EF0002B5ADA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E466630E29086EEF002B5ADA /* RocketScience */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E466631D29086EF0002B5ADA /* Build configuration list for PBXNativeTarget "RocketScience" */;
+			buildPhases = (
+				DFC8729C01F6719E6CB35B22 /* [CP] Check Pods Manifest.lock */,
+				E466630B29086EEF002B5ADA /* Sources */,
+				E466630C29086EEF002B5ADA /* Frameworks */,
+				E466630D29086EEF002B5ADA /* Resources */,
+				7A8FB59EC98631EB609BF327 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RocketScience;
+			productName = RocketScience;
+			productReference = E466630F29086EEF002B5ADA /* RocketScience.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E466630729086EEF002B5ADA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					E466630E29086EEF002B5ADA = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = E466630A29086EEF002B5ADA /* Build configuration list for PBXProject "RocketScience" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E466630629086EEF002B5ADA;
+			productRefGroup = E466631029086EEF002B5ADA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E466630E29086EEF002B5ADA /* RocketScience */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E466630D29086EEF002B5ADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4538E55290870AB00D360CE /* GoogleService-Info.plist in Resources */,
+				E466631A29086EF0002B5ADA /* Preview Assets.xcassets in Resources */,
+				E466631729086EF0002B5ADA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7A8FB59EC98631EB609BF327 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RocketScience/Pods-RocketScience-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RocketScience/Pods-RocketScience-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RocketScience/Pods-RocketScience-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFC8729C01F6719E6CB35B22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RocketScience-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E466630B29086EEF002B5ADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4538E632908715F00D360CE /* LoginView.swift in Sources */,
+				E4538E642908715F00D360CE /* RugbyCompetionsView.swift in Sources */,
+				E4538E612908715F00D360CE /* GoogleSignInButton.swift in Sources */,
+				E4538E58290870AB00D360CE /* AppDelegate.swift in Sources */,
+				E4538E682908717100D360CE /* RugbyCompetitionsViewModel.swift in Sources */,
+				E466631329086EEF002B5ADA /* RocketScienceApp.swift in Sources */,
+				E4538E6C2908718400D360CE /* DatabaseService.swift in Sources */,
+				E4538E692908717100D360CE /* AuthenticationViewModel.swift in Sources */,
+				E4538E622908715F00D360CE /* HomeView.swift in Sources */,
+				E4538E602908715F00D360CE /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E466631B29086EF0002B5ADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E466631C29086EF0002B5ADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E466631E29086EF0002B5ADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE39DDB14484990583EC7BF0 /* Pods-RocketScience.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RocketScience/Preview Content\"";
+				DEVELOPMENT_TEAM = RL2BLTR4SF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RocketScience/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Rocket Science";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.armandmgt.RocketScience;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E466631F29086EF0002B5ADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E883EB9314CD1DB06A5C3DFE /* Pods-RocketScience.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RocketScience/Preview Content\"";
+				DEVELOPMENT_TEAM = RL2BLTR4SF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RocketScience/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Rocket Science";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.armandmgt.RocketScience;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E466630A29086EEF002B5ADA /* Build configuration list for PBXProject "RocketScience" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E466631B29086EF0002B5ADA /* Debug */,
+				E466631C29086EF0002B5ADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E466631D29086EF0002B5ADA /* Build configuration list for PBXNativeTarget "RocketScience" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E466631E29086EF0002B5ADA /* Debug */,
+				E466631F29086EF0002B5ADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E466630729086EEF002B5ADA /* Project object */;
+}
